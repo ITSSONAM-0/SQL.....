@@ -201,7 +201,5 @@ CREATE VIEW toppers AS
 SELECT name, marks FROM students WHERE marks > 90;
 ```
 
-<p align="center">
-  <h1>🔥 Top SQL Interview Questions & Answers (Best for Placements)</h1>
-</p>
+
 
