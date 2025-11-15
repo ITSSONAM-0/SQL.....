@@ -7,92 +7,105 @@
 
 ![SQL](https://img.shields.io/badge/SQL-Structured%20Query%20Language-blue)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
-![Markdown](https://img.shields.io/badge/MD-Documentation-lightgrey)
-![Status](https://img.shields.io/badge/Version-1.0-green)
+![Markdown](https://img.shields.io/badge/Documentation-Markdown-lightgrey)
+![Version](https://img.shields.io/badge/Version-1.1-green)
 
 ---
 
 # 📑 Table of Contents
 - [Introduction](#introduction)
-- [Database](#database)
+- [What is a Database?](#what-is-a-database)
 - [Types of Databases](#types-of-databases)
+- [What is SQL?](#what-is-sql)
+- [Database Structure](#database-structure)
 - [SQL Data Types](#sql-data-types)
-- [Commands](#sql-commands)
-- [Queries](#queries)
+- [Types of SQL Commands](#types-of-sql-commands)
+- [Database Queries](#database-queries)
+- [Table Queries](#table-queries)
 - [Constraints](#constraints)
 - [Keys](#keys)
-- [Select](#select)
+- [Select & WHERE Clause](#select--where-clause)
+- [Operators](#operators)
+- [Sorting & Limiting](#sorting--limiting)
+- [Aggregate Functions](#aggregate-functions)
+- [Group By & Having](#group-by--having)
+- [Update & Delete](#update--delete)
+- [Alter Table](#alter-table)
 - [Joins](#joins)
+- [Self Join](#self-join)
+- [UNION](#union)
 - [Subqueries](#subqueries)
 - [Views](#views)
 
 ---
 
-# 🔷 Introduction
-SQL (Structured Query Language) is used to interact with relational databases.
+# Introduction
+SQL is the standard language for managing relational databases.
 
----
+# What is a Database?
+A structured digital storage of data.
 
-# 🔷 Database
-A database stores data in a structured digital form.
-
----
-
-# 🔷 Types of Databases
+# Types of Databases
 - Relational (SQL)
 - Non-relational (NoSQL)
 
----
+# What is SQL?
+Language to perform CRUD operations.
 
-# 🔷 SQL Data Types
-Includes numeric, string, date/time, and boolean types.
+# Database Structure
+Database → Tables → Rows
 
----
+# SQL Data Types
+Numeric, String, Boolean, Date/Time.
 
-# 🔷 SQL Commands
-- DDL
-- DML
-- DQL
-- DCL
-- TCL
+# Types of SQL Commands
+DDL, DML, DQL, DCL, TCL
 
----
+# Database Queries
+CREATE, DROP, SHOW, USE
 
-# 🔷 Queries
-Examples:
-```sql
-SELECT * FROM table;
-INSERT INTO table VALUES (...);
-```
+# Table Queries
+CREATE TABLE, INSERT, SELECT
 
----
+# Constraints
+Primary Key, Foreign Key, Unique, Check, Default
 
-# 🔷 Constraints
-NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT.
+# Keys
+PK & FK
 
----
+# Select & WHERE Clause
+Filtering with conditions.
 
-# 🔷 Keys
-Primary & Foreign Keys
+# Operators
+Comparison, Logical, LIKE, BETWEEN, IN
 
----
+# Sorting & Limiting
+ORDER BY, LIMIT
 
-# 🔷 Select
-Filtering using WHERE, LIKE, IN, BETWEEN.
+# Aggregate Functions
+COUNT, MAX, AVG, SUM
 
----
+# Group By & Having
+Grouping & filtering groups.
 
-# 🔷 Joins
-INNER, LEFT, RIGHT, FULL.
+# Update & Delete
+UPDATE, DELETE
 
----
+# Alter Table
+ADD, DROP, MODIFY, RENAME
 
-# 🔷 Subqueries
-Nested queries inside other queries.
+# Joins
+INNER, LEFT, RIGHT, FULL
 
----
+# Self Join
+Join table with itself.
 
-# 🔷 Views
+# UNION
+Combine results of multiple selects.
+
+# Subqueries
+Query inside another query.
+
+# Views
 Virtual tables created using SELECT.
 
----
