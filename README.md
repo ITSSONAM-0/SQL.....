@@ -39,32 +39,32 @@
 - [Subqueries](#subqueries)
 - [Views](#views)
 
----
+
 
 # Introduction
 SQL is the standard language for managing relational databases.
 
----
+
 
 # What is a Database?
 A structured digital storage of data used for efficient access and management.
 
----
+
 
 # Types of Databases
 - **Relational (SQL)** — Data stored in tables  
 - **Non-relational (NoSQL)** — Document, key-value, graph, column-based  
 
----
+
 
 # What is SQL?
 SQL (Structured Query Language) is used to perform CRUD and manage relational DBs.
 
----
+
 
 # Database Structure
 
----
+
 
 # SQL Data Types
 - Integer Types  
@@ -73,7 +73,7 @@ SQL (Structured Query Language) is used to perform CRUD and manage relational DB
 - DATE, TIME, DATETIME  
 - BOOLEAN  
 
----
+
 
 # Types of SQL Commands
 - **DDL** – CREATE, ALTER, DROP  
@@ -82,7 +82,7 @@ SQL (Structured Query Language) is used to perform CRUD and manage relational DB
 - **DCL** – GRANT, REVOKE  
 - **TCL** – COMMIT, ROLLBACK, SAVEPOINT  
 
----
+
 
 # Database Queries
 ```sql
