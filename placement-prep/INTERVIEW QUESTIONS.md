@@ -206,4 +206,4 @@ CREATE INDEX idx_user_city ON users (city, age);
 
 
 
-CREATE INDEX idx_user_city ON users (city, age);
+# Good Luck...
