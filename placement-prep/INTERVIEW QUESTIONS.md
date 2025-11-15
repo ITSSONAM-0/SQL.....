@@ -40,9 +40,9 @@ SELECT name FROM high_salary;
 ```
 
 
-✔ Easier to maintain
-✔ Better for recursive queries
-✔ Improves readability
+- ✔ Easier to maintain
+- ✔ Better for recursive queries
+- ✔ Improves readability
 
 # 4️⃣ What is a window function? Give example.
 
@@ -171,10 +171,10 @@ Surrogate key = artificial (AUTO_INCREMENT)
 Natural key = real-world value (email, phone)
 
 Surrogate keys:
-✔ Faster
-✔ Smaller
-✔ Avoid updates
-✔ No business dependency
+- ✔ Faster
+- ✔ Smaller
+- ✔ Avoid updates
+- ✔ No business dependency
 
 # 17️⃣ Difference between DELETE with and without WHERE
 ```sql
