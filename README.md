@@ -64,3 +64,39 @@ SQL (Structured Query Language) is used to perform CRUD and manage relational DB
 
 # Database Structure
 
+---
+
+# SQL Data Types
+- Integer Types  
+- Floating Types  
+- VARCHAR, CHAR, TEXT  
+- DATE, TIME, DATETIME  
+- BOOLEAN  
+
+---
+
+# Types of SQL Commands
+- **DDL** – CREATE, ALTER, DROP  
+- **DML** – INSERT, UPDATE, DELETE  
+- **DQL** – SELECT  
+- **DCL** – GRANT, REVOKE  
+- **TCL** – COMMIT, ROLLBACK, SAVEPOINT  
+
+---
+
+# Database Queries
+```sql
+CREATE DATABASE db_name;
+DROP DATABASE db_name;
+SHOW DATABASES;
+USE db_name;
+```
+# Create Table
+```sql
+CREATE TABLE students (
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  marks INT
+);
+```
+
