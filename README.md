@@ -99,4 +99,18 @@ CREATE TABLE students (
   marks INT
 );
 ```
-
+# Insert
+```sql
+INSERT INTO students (name, marks) VALUES ("Sonam", 90);
+```
+# Select
+```sql
+SELECT * FROM students;
+```
+# Constraints
+-NOT NULL
+- UNIQUE
+- PRIMARY KEY
+- FOREIGN KEY
+- DEFAULT
+-  CHECK
