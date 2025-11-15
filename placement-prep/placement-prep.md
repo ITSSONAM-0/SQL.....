@@ -216,7 +216,9 @@ ON c.id = o.customer_id
 WHERE o.customer_id IS NULL;
 ```
 
-Q25: Count employees in each city
+# Q25: Count employees in each city
+```sql
 SELECT city, COUNT(*)
 FROM employees
 GROUP BY city;
+```
