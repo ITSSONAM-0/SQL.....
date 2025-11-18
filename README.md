@@ -201,5 +201,5 @@ CREATE VIEW toppers AS
 SELECT name, marks FROM students WHERE marks > 90;
 ```
 
-# Good luck....
+# Good luck.......
 
